@@ -1,0 +1,56 @@
+Personal Use License
+Copyright (c) 2026 pschur
+
+Permission is hereby granted, free of charge, to any individual obtaining a copy
+of this software and associated documentation files (the "Software"), to use the
+Software solely for personal, private, and non-commercial purposes, subject to
+the following conditions:
+
+1. PERMITTED USE
+   The Software may be used, copied, and modified exclusively for personal,
+   private, and non-commercial purposes on systems owned or controlled by the
+   individual licensee.
+
+2. RESTRICTIONS
+   The following uses are expressly prohibited without prior written permission
+   from the copyright holder:
+
+   a) Commercial use — using the Software, in whole or in part, in any product
+      or service that is sold, licensed, or otherwise monetized;
+   b) Organizational use — deploying the Software on behalf of a company,
+      employer, client, or any other legal entity;
+   c) Distribution — publishing, sublicensing, or otherwise making the Software
+      or any derivative works available to third parties;
+   d) SaaS / hosted use — providing access to the Software's functionality to
+      third parties via a network or hosted service.
+
+3. ATTRIBUTION
+   Any permitted copy or modification must retain this license text and the
+   copyright notice above in full.
+
+4. NO WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL
+   THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY,
+   WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF,
+   OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
+
+5. PATENT NON-ASSERTION
+   No licensee may file, maintain, or assert any patent claim — including
+   defensive claims — that covers the Software, any portion thereof, or any
+   derivative work based on the Software. Any attempt to obtain patent
+   protection for the Software or to use patents to restrict others from using,
+   copying, or modifying the Software immediately and permanently terminates all
+   rights granted under this license.
+
+   The copyright holder explicitly reserves the right to grant or withhold
+   patent licenses independently of this license.
+
+6. TERMINATION
+   Any breach of these terms automatically terminates the rights granted under
+   this license. The copyright holder may also revoke this license at any time
+   with written notice.
+
+For commercial licensing inquiries, contact: git@paul-plus.de

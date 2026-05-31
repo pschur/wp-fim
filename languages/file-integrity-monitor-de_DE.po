@@ -1,0 +1,337 @@
+# German (de_DE) translation for File Integrity Monitor
+# Copyright (C) 2024 pschur
+# This file is distributed under the same license as the File Integrity Monitor plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: File Integrity Monitor 1.0.0\n"
+"Report-Msgid-Bugs-To: git@paul-plus.de\n"
+"POT-Creation-Date: 2024-01-01T00:00:00+00:00\n"
+"PO-Revision-Date: 2024-01-01T00:00:00+00:00\n"
+"Last-Translator: pschur <git@paul-plus.de>\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Claude\n"
+"X-Domain: file-integrity-monitor\n"
+
+#. Plugin Name
+msgid "File Integrity Monitor"
+msgstr "Datei-Integritäts-Monitor"
+
+#. Plugin Description
+msgid "Monitors WordPress core, plugins, and themes for unexpected file changes using MD5 hashes. Alerts via admin notice, email, and log file. Optionally blocks requests on core tampering and auto-repairs from WordPress.org."
+msgstr "Überwacht WordPress-Core, Plugins und Themes auf unerwartete Dateiänderungen mittels MD5-Hashes. Benachrichtigt per Admin-Notice, E-Mail und Log-Datei. Kann Requests bei Core-Manipulation blockieren und Dateien automatisch von WordPress.org wiederherstellen."
+
+# class-fim-admin.php
+msgid "File Integrity Monitor"
+msgstr "Datei-Integritäts-Monitor"
+
+msgid "File Integrity"
+msgstr "Datei-Integrität"
+
+msgid "Insufficient permissions."
+msgstr "Unzureichende Berechtigungen."
+
+msgid "Dashboard"
+msgstr "Dashboard"
+
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgid "Invalid area."
+msgstr "Ungültiger Bereich."
+
+msgid "Scan completed."
+msgstr "Scan abgeschlossen."
+
+msgid "Full scan completed."
+msgstr "Vollständiger Scan abgeschlossen."
+
+msgid "Alerts cleared."
+msgstr "Meldungen gelöscht."
+
+# page-dashboard.php
+msgid "Baseline Status"
+msgstr "Baseline-Status"
+
+msgid "Scan All Areas"
+msgstr "Alle Bereiche scannen"
+
+msgid "Click \"Scan\" to create a new baseline fingerprint for a single area. Excluded areas are skipped when using %s."
+msgstr "Klicke auf „Scan", um einen neuen Baseline-Fingerabdruck für einen einzelnen Bereich zu erstellen. Ausgeschlossene Bereiche werden beim %s übersprungen."
+
+msgid "Scan All"
+msgstr "Alle scannen"
+
+msgid "Area"
+msgstr "Bereich"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Last Scan"
+msgstr "Letzter Scan"
+
+msgid "Files"
+msgstr "Dateien"
+
+msgid "Action"
+msgstr "Aktion"
+
+msgid "WordPress Core"
+msgstr "WordPress Core"
+
+msgid "Must-Use Plugins"
+msgstr "Must-Use-Plugins"
+
+# translators: %s: plugin slug
+msgid "Plugin: %s"
+msgstr "Plugin: %s"
+
+# translators: %s: theme slug
+msgid "Theme: %s"
+msgstr "Theme: %s"
+
+msgid "Excluded"
+msgstr "Ausgeschlossen"
+
+msgid "Active"
+msgstr "Aktiv"
+
+msgid "Not scanned"
+msgstr "Nicht gescannt"
+
+msgid "This area is skipped when using \"Scan All\""
+msgstr "Dieser Bereich wird beim „Alle scannen" übersprungen"
+
+msgid "Manual scan"
+msgstr "Manueller Scan"
+
+msgid "Scan"
+msgstr "Scan"
+
+msgid "Auto-Repair"
+msgstr "Auto-Reparatur"
+
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+msgid "Auto-repair is disabled."
+msgstr "Auto-Reparatur ist deaktiviert."
+
+msgid "Enable in Settings →"
+msgstr "In den Einstellungen aktivieren →"
+
+msgid "No repairs performed yet."
+msgstr "Noch keine Reparaturen durchgeführt."
+
+msgid "Time"
+msgstr "Zeit"
+
+msgid "Repaired"
+msgstr "Repariert"
+
+msgid "Failed"
+msgstr "Fehlgeschlagen"
+
+msgid "File"
+msgstr "Datei"
+
+msgid "Note"
+msgstr "Hinweis"
+
+msgid "Detected Changes"
+msgstr "Erkannte Änderungen"
+
+msgid "Clear alerts"
+msgstr "Meldungen löschen"
+
+msgid "No changes detected. Everything is fine."
+msgstr "Keine Änderungen erkannt. Alles in Ordnung."
+
+# translators: 1: unique file count, 2: total detection count
+msgid "%1$d unique file(s) — %2$d detections total"
+msgstr "%1$d einzigartige Datei(en) — %2$d Erkennungen insgesamt"
+
+msgid "Severity"
+msgstr "Schweregrad"
+
+msgid "Frequency"
+msgstr "Häufigkeit"
+
+msgid "First Seen"
+msgstr "Erstmals gesehen"
+
+msgid "Last Seen"
+msgstr "Zuletzt gesehen"
+
+msgid "Expected (MD5)"
+msgstr "Erwartet (MD5)"
+
+msgid "Current (MD5)"
+msgstr "Aktuell (MD5)"
+
+msgid "Critical"
+msgstr "Kritisch"
+
+msgid "Warning"
+msgstr "Warnung"
+
+msgid "Loading…"
+msgstr "Wird geladen…"
+
+msgid "Scanning…"
+msgstr "Wird gescannt…"
+
+msgid "Error: "
+msgstr "Fehler: "
+
+# page-settings.php
+msgid "Notifications"
+msgstr "Benachrichtigungen"
+
+msgid "Email Notifications"
+msgstr "E-Mail-Benachrichtigungen"
+
+msgid "Send an email when a file change is detected"
+msgstr "Bei erkannter Dateiänderung eine E-Mail senden"
+
+msgid "Email Address"
+msgstr "E-Mail-Adresse"
+
+msgid "Leave empty to use the admin email address."
+msgstr "Leer lassen, um die Admin-E-Mail-Adresse zu verwenden."
+
+msgid "Detection Behavior"
+msgstr "Verhalten bei Erkennung"
+
+msgid "Block Requests"
+msgstr "Requests blockieren"
+
+msgid "Abort the HTTP request when a core file has been modified and repair is disabled or fails"
+msgstr "Den HTTP-Request abbrechen, wenn eine Core-Datei verändert wurde und die Reparatur deaktiviert ist oder fehlschlägt"
+
+msgid "When disabled, changes are only logged and reported — the request continues normally. Recommended: enabled, unless you are actively testing or rely on auto-repair."
+msgstr "Wenn deaktiviert, werden Änderungen nur protokolliert und gemeldet — der Request läuft normal weiter. Empfohlen: aktiviert, außer du testest aktiv oder verlässt dich auf die Auto-Reparatur."
+
+msgid "Automatically Repair Core Files"
+msgstr "Core-Dateien automatisch reparieren"
+
+msgid "Automatically restore modified WordPress core files from WordPress.org"
+msgstr "Veränderte WordPress-Core-Dateien automatisch von WordPress.org wiederherstellen"
+
+# translators: 1: core.svn.wordpress.org, 2: api.wordpress.org
+msgid "When enabled, a hash mismatch on a core file triggers an automatic download of the official version from %1$s. The downloaded file's MD5 is verified against the official %2$s checksum before replacing the local copy."
+msgstr "Wenn aktiviert, löst ein Hash-Mismatch bei einer Core-Datei automatisch den Download der offiziellen Version von %1$s aus. Die MD5 der heruntergeladenen Datei wird gegen den offiziellen %2$s-Checksum geprüft, bevor die lokale Kopie ersetzt wird."
+
+msgid "Requirement:"
+msgstr "Voraussetzung:"
+
+# translators: 1: api.wordpress.org, 2: core.svn.wordpress.org
+msgid "The web server needs outbound HTTPS access to %1$s and %2$s."
+msgstr "Der Webserver benötigt ausgehende HTTPS-Verbindungen zu %1$s und %2$s."
+
+msgid "On success, the current request continues normally. On failure, the request is still blocked."
+msgstr "Bei Erfolg läuft der aktuelle Request normal weiter. Bei Misserfolg wird der Request weiterhin blockiert."
+
+msgid "WordPress Version"
+msgstr "WordPress-Version"
+
+# translators: %d: number of files
+msgid "Official checksums available (%d files)"
+msgstr "Offizielle Checksums verfügbar (%d Dateien)"
+
+msgid "Could not retrieve official checksums for this version"
+msgstr "Offizielle Checksums für diese Version konnten nicht abgerufen werden"
+
+msgid "Checksums are fetched from WordPress.org once per hour and cached."
+msgstr "Checksums werden einmal pro Stunde von WordPress.org abgerufen und zwischengespeichert."
+
+msgid "Exclusions"
+msgstr "Ausschlüsse"
+
+msgid "Excluded areas are skipped during \"Scan All\" and are not checked at runtime. A manual scan from the Dashboard remains possible at any time."
+msgstr "Ausgeschlossene Bereiche werden beim „Alle scannen" übersprungen und zur Laufzeit nicht geprüft. Ein manueller Scan über das Dashboard bleibt jederzeit möglich."
+
+msgid "Exclude Plugins"
+msgstr "Plugins ausschließen"
+
+msgid "No plugins installed."
+msgstr "Keine Plugins installiert."
+
+msgid "Exclude Themes"
+msgstr "Themes ausschließen"
+
+msgid "No themes installed."
+msgstr "Keine Themes installiert."
+
+msgid "Save Settings"
+msgstr "Einstellungen speichern"
+
+msgid "Log File"
+msgstr "Log-Datei"
+
+# translators: %s: absolute path to the log file
+msgid "All detected changes are written to %s."
+msgstr "Alle erkannten Änderungen werden in %s geschrieben."
+
+# translators: 1: file size, 2: number of log entries
+msgid "Size: %1$s | Entries: %2$s"
+msgstr "Größe: %1$s | Einträge: %2$s"
+
+msgid "No log file exists yet."
+msgstr "Noch keine Log-Datei vorhanden."
+
+# class-fim-alerts.php
+# translators: 1: site name, 2: file basename
+msgid "[%1$s] File Integrity Alert: %2$s"
+msgstr "[%1$s] Datei-Integritäts-Alarm: %2$s"
+
+# translators: 1: file path, 2: expected hash, 3: actual hash, 4: timestamp, 5: optional critical note, 6: admin URL
+msgid "A file modification was detected on your WordPress installation.\n\nFile:     %1$s\nExpected: %2$s\nActual:   %3$s\nTime:     %4$s\n\n%5$sPlease review your installation immediately.\n%6$s"
+msgstr "Eine Dateiänderung wurde auf deiner WordPress-Installation erkannt.\n\nDatei:    %1$s\nErwartet: %2$s\nAktuell:  %3$s\nZeit:     %4$s\n\n%5$sBitte überprüfe deine Installation sofort.\n%6$s"
+
+msgid "CRITICAL: WordPress core file affected."
+msgstr "KRITISCH: WordPress-Core-Datei betroffen."
+
+# translators: 1: unique file count, 2: total detection count
+msgid "File Integrity Monitor: <strong>%1$d critical file(s)</strong> modified (%2$d detections)"
+msgstr "Datei-Integritäts-Monitor: <strong>%1$d kritische Datei(en)</strong> verändert (%2$d Erkennungen)"
+
+# translators: 1: unique file count, 2: total detection count
+msgid "File Integrity Monitor: <strong>%1$d file(s)</strong> modified (%2$d detections)"
+msgstr "Datei-Integritäts-Monitor: <strong>%1$d Datei(en)</strong> verändert (%2$d Erkennungen)"
+
+msgid "View details"
+msgstr "Details anzeigen"
+
+# class-fim-checker.php
+msgid "<h1>Security Error</h1><p>A critical system file has been unexpectedly modified. Access has been blocked for security reasons.</p><p>Please contact your administrator.</p>"
+msgstr "<h1>Sicherheitsfehler</h1><p>Eine kritische Systemdatei wurde unerwartet verändert. Der Zugriff wurde aus Sicherheitsgründen blockiert.</p><p>Bitte kontaktiere deinen Administrator.</p>"
+
+msgid "Integrity Error — Access Denied"
+msgstr "Integritätsfehler — Zugriff verweigert"
+
+# class-fim-repair.php
+msgid "No official checksum available"
+msgstr "Kein offizieller Checksum verfügbar"
+
+# translators: %s: error message
+msgid "Download error: %s"
+msgstr "Download-Fehler: %s"
+
+# translators: %d: HTTP status code
+msgid "HTTP error %d"
+msgstr "HTTP-Fehler %d"
+
+msgid "Integrity check of downloaded file failed"
+msgstr "Integritätsprüfung der heruntergeladenen Datei fehlgeschlagen"
+
+msgid "Write error (temp file)"
+msgstr "Schreibfehler (temporäre Datei)"
+
+msgid "Rename failed"
+msgstr "Umbenennen fehlgeschlagen"
