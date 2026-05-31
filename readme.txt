@@ -1,12 +1,12 @@
 === File Integrity Monitor ===
-Contributors:       pschur
-Tags:               security, file integrity, malware, monitoring, hashing
-Requires at least:  6.4
-Tested up to:       7.0
-Requires PHP:       8.1
-Stable tag:         1.0.0
-License:            Personal Use License
-License URI:        https://github.com/pschur/wp-fim/blob/main/LICENSE
+Contributors: pschur
+Tags: security, file integrity, malware, monitoring, hashing
+Requires at least: 6.4
+Tested up to: 7.0
+Requires PHP: 8.1
+Stable tag: 1.0.0
+License: Personal Use License
+License URI: https://github.com/pschur/wp-fim/blob/main/LICENSE
 
 Monitors WordPress core, plugins, and themes for unexpected file changes using MD5 hashes and alerts you immediately.
 

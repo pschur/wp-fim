@@ -1,12 +1,16 @@
 <?php
 /**
  * Plugin Name: File Integrity Monitor
- * Plugin URI:  https://github.com/pschur/wp-fim
+ * Plugin URI: https://github.com/pschur/wp-fim
  * Description: Monitors WordPress core, plugins, and themes for unexpected file changes using MD5 hashes. Optionally blocks requests on core file tampering.
- * Version:     1.0.0
- * Author:      Paul Schur
- * License:     Personal Use License
+ * Version: 1.0.0
+ * Requires at least: 6.5
+ * Requires PHP: 8.1
+ * Author: Paul Schur
+ * License: Personal Use License
  * Text Domain: file-integrity-monitor
+ * 
+ * @package file-integrity-monitor
  */
 
 if ( ! defined( 'ABSPATH' ) ) exit;
