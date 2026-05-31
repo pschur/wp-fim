@@ -58,7 +58,7 @@ file-integrity-monitor/
 
 | | |
 |---|---|
-| WordPress | ≥ 6.4 |
+| WordPress | ≥ 6.5 |
 | PHP | ≥ 8.1 |
 | Database | MySQL or SQLite (fully compatible) |
 

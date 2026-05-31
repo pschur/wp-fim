@@ -1,10 +1,10 @@
 === File Integrity Monitor ===
 Contributors: pschur
 Tags: security, file integrity, malware, monitoring, hashing
-Requires at least: 6.4
+Requires at least: 6.5
 Tested up to: 7.0
 Requires PHP: 8.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: Personal Use License
 License URI: https://github.com/pschur/wp-fim/blob/main/LICENSE
 

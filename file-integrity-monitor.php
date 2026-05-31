@@ -3,7 +3,7 @@
  * Plugin Name: File Integrity Monitor
  * Plugin URI: https://github.com/pschur/wp-fim
  * Description: Monitors WordPress core, plugins, and themes for unexpected file changes using MD5 hashes. Optionally blocks requests on core file tampering.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Requires at least: 6.5
  * Requires PHP: 8.1
  * Author: Paul Schur
@@ -15,7 +15,7 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit;
 
-define( 'FIM_VERSION',     '1.0.0' );
+define( 'FIM_VERSION',     '1.0.1' );
 define( 'FIM_PLUGIN_FILE', __FILE__ );
 define( 'FIM_PLUGIN_DIR',  plugin_dir_path( __FILE__ ) );
 define( 'FIM_DATA_DIR',    FIM_PLUGIN_DIR . 'data' );
